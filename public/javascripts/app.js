@@ -7,7 +7,7 @@ primus = Primus.connect('/', {
   });
 
   primus.on('data', data => {
-    console.log(data.team);
+ 
     switch(data.team){
         case "game1": document.querySelector(".game1").innerHTML = data.score;
         break;
