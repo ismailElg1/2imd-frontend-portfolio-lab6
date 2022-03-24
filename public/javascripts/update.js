@@ -22,7 +22,7 @@ primus = Primus.connect('/', {
           });
           break;
           case "team3":  primus.write({
-            team : "team1",
+            team : "team3",
             score: score
           });
           break;
