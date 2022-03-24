@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+table.teams {
+  width: 35%;
+  background-color: #ff8800;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #5c6fff;
+  border-style: solid;
+  color: #ffffff;
+
+}
+
+table.teams td, table.teams th {
+  border-width: 2px;
+  border-color: #5c6fff;
+  border-style: solid;
+  padding: 3px;
+ 
+}
+
+table.teams thead {
+  background-color: #5c6fff;
+}

@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/updatestats', (req, res, next) =>{
-  res.render('index');
+  res.render('update');
 });
 
 module.exports = router;
