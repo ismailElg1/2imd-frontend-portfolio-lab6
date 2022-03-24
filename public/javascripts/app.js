@@ -7,5 +7,17 @@ primus = Primus.connect('/', {
   });
 
   primus.on('data', data => {
-    console.log(data);
+    console.log(data.team);
+    switch(data.team){
+        case "team1": document.querySelector(".team1").innerHTML = data.score;
+        break;
+        case "team2": document.querySelector(".team2").innerHTML = data.score;
+        break;
+        case "team3": document.querySelector(".team3").innerHTML = data.score;
+        break;
+        case "team4": document.querySelector(".team4").innerHTML = data.score;
+        break;
+        case "team5": document.querySelector(".team5").innerHTML = data.score;
+        break;
+    }
   });
