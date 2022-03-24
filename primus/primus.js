@@ -8,8 +8,8 @@ let go = (server) => {
     //        primus.write(data);
     //     })
     // });
-
-    console.log('test');
+    //  primus.save(__dirname +'/primuslib.js');
+    // console.log('test');
 }
 
 module.exports.go = go;
