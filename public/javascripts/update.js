@@ -30,6 +30,7 @@ primus = Primus.connect('/', {
             team : "team4",
             score: score
           });
+          break;
           case "team5":  primus.write({
             team : "team5",
             score: score

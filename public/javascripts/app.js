@@ -7,5 +7,5 @@ primus = Primus.connect('/', {
   });
 
   primus.on('data', data => {
-  console.log('hey something has been changed');
+    console.log(data);
   });
