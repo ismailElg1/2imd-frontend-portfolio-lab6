@@ -7,7 +7,7 @@ a {
   color: #00B7FF;
 }
 
-table.teams {
+table.games {
   width: 400px;
   background-color: #ffffff;
   border-collapse: collapse;
@@ -18,11 +18,11 @@ table.teams {
  
 
 }
-table.teams tr:nth-child(6n+2),
-table.teams tr:nth-child(6n+4){
+table.games tr:nth-child(6n+2),
+table.games tr:nth-child(6n+4){
   background: #bfc3ff;
 } 
-table.teams td, table.teams th {
+table.games td, table.games th {
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
