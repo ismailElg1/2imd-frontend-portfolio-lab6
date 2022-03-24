@@ -22,12 +22,32 @@ table.games tr:nth-child(6n+2),
 table.games tr:nth-child(6n+4){
   background: #bfc3ff;
 } 
-table.games td, table.games th {
+table.games td, table.games th, .gameDropdown, .scoreInput, .updateButton {
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
   padding: 1em;
+  
 }
 table thead{
   background: #8fadff;
+}
+
+.scoreInput, .gameDropdown, .updateButton{
+  width: 50px;
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 0.6em;
+
+}
+.gameDropdown{
+  margin-left: 0px;
+  width: 250px;
+}
+
+.updateButton{
+  background: #8fadff;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
 }
