@@ -4,7 +4,9 @@ let go = (server) => {
     const primus = new Primus(server, {});
 
     primus.on('connection', (spark) =>{
-       console.log('test');
+        spark.on('data', (data) =>{
+            primus.write(data);
+         })
     });
    
 }
