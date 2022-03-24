@@ -9,15 +9,15 @@ primus = Primus.connect('/', {
   primus.on('data', data => {
     console.log(data.team);
     switch(data.team){
-        case "team1": document.querySelector(".team1").innerHTML = data.score;
+        case "game1": document.querySelector(".game1").innerHTML = data.score;
         break;
-        case "team2": document.querySelector(".team2").innerHTML = data.score;
+        case "game2": document.querySelector(".game2").innerHTML = data.score;
         break;
-        case "team3": document.querySelector(".team3").innerHTML = data.score;
+        case "game3": document.querySelector(".game3").innerHTML = data.score;
         break;
-        case "team4": document.querySelector(".team4").innerHTML = data.score;
+        case "game4": document.querySelector(".game4").innerHTML = data.score;
         break;
-        case "team5": document.querySelector(".team5").innerHTML = data.score;
+        case "game5": document.querySelector(".game5").innerHTML = data.score;
         break;
     }
   });

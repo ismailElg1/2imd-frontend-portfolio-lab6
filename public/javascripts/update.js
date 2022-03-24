@@ -7,32 +7,32 @@ primus = Primus.connect('/', {
   });
 
   document.querySelector('.updateButton').addEventListener('click', e =>{
-      let team = document.querySelector('.teamDropdown').value;
+      let team = document.querySelector('.gameDropdown').value;
       let score = document.querySelector('.scoreInput').value;
      
       switch(team){
-        case "team1":  primus.write({
-            team : "team1",
+        case "game1":  primus.write({
+            team : "game1",
             score: score
           });
           break;
-          case "team2":  primus.write({
-            team : "team2",
+          case "game2":  primus.write({
+            team : "game2",
             score: score
           });
           break;
-          case "team3":  primus.write({
-            team : "team3",
+          case "game3":  primus.write({
+            team : "game3",
             score: score
           });
           break;
-          case "team4":  primus.write({
-            team : "team4",
+          case "game4":  primus.write({
+            team : "game4",
             score: score
           });
           break;
-          case "team5":  primus.write({
-            team : "team5",
+          case "game5":  primus.write({
+            team : "game5",
             score: score
           });
           break;

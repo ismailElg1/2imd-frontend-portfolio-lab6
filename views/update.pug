@@ -3,12 +3,12 @@ extends layout
 block content
   h1 Update scoreboard
 
-  select.dropdown(name='teams' class='teamDropdown')
-    option(value='team1') Team 1
-    option(value='team2') Team 2
-    option(value='team3') Team 3
-    option(value='team4') Team 4
-    option(value='team5') Team 5
+  select.dropdown(name='games' class='gameDropdown')
+    option(value='game1') Grand Theft Auto V
+    option(value='game2') Minecraft
+    option(value='game3') God of war
+    option(value='game4') Super Mario
+    option(value='game5') Red Dead Redemption @
 
   input(type='number' value="0" min='0' class='scoreInput')
   input(type='submit' value="update score" class="updateButton")
